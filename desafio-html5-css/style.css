@@ -1,0 +1,68 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap');
+
+
+body{
+    background-image: linear-gradient(to right, #D1BF91, #6037);
+    
+    
+}
+
+main{
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    filter: drop-shadow(5px 5px 15px #6037);
+    text-align: center;
+}
+
+header{
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #D1BF91, #6037);
+    text-align: center;
+    padding: 0.01%;
+}
+
+.perfil img:hover{
+    -webkit-transform: scale(1.1);
+    -webkit-transition: all 0.2s ease-out;
+    filter:drop-shadow(3px 20px 20px #6037);
+}
+
+div{ 
+    margin: auto; 
+    width: 80%;
+    text-align:center;
+    font-size: 17px;
+}
+
+.contato ul{
+    margin: auto; 
+    
+}
+
+.icon nav:hover{
+    display: block;
+    text-align: center;
+    -webkit-transform: scale(1.1);
+    -webkit-transition: all 0.2s ease-out;
+    font-size: 20px;
+}
+
+h1{
+    color: #6037;
+    text-align:center;
+    font-family: Cairo, sans-serif;
+}
+
+p{
+    text-align: auto;
+    font-family: Cairo, Sans-serif;
+}
+
+h2{
+    color: #6037;
+    font-family: Cairo, sans-serif;
+}
